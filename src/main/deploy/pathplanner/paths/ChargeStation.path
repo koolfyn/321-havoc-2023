@@ -1,0 +1,110 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.6501967601091607,
+        "y": 2.63092763152351
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.8089446700220417,
+        "y": 2.611931764147889
+      },
+      "isLocked": false
+    },
+    {
+      "anchor": {
+        "x": 4.47108306538888,
+        "y": 2.63092763152351
+      },
+      "prevControl": {
+        "x": 3.103380614344167,
+        "y": 2.64042556521132
+      },
+      "nextControl": {
+        "x": 5.852568148772577,
+        "y": 2.621333985111124
+      },
+      "isLocked": false
+    },
+    {
+      "anchor": {
+        "x": 6.646109879897485,
+        "y": 2.1750268145086054
+      },
+      "prevControl": {
+        "x": 5.734308245858179,
+        "y": 2.241512350332777
+      },
+      "nextControl": {
+        "x": 7.557911513936791,
+        "y": 2.1085412786844335
+      },
+      "isLocked": false
+    },
+    {
+      "anchor": {
+        "x": 3.7872318398665237,
+        "y": 2.63092763152351
+      },
+      "prevControl": {
+        "x": 2.9799074764047804,
+        "y": 2.6214296978357
+      },
+      "nextControl": null,
+      "isLocked": false
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 2.15,
+      "rotationDegrees": 0.0
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "ScoreHighCube",
+      "waypointRelativePos": 0.0,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": []
+        }
+      }
+    },
+    {
+      "name": "LoadCone",
+      "waypointRelativePos": 1.9500000000000002,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": []
+        }
+      }
+    },
+    {
+      "name": "Dock&Engage",
+      "waypointRelativePos": 3.0,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": []
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3,
+    "maxAcceleration": 3,
+    "maxAngularVelocity": 540,
+    "maxAngularAcceleration": 720
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "reversed": false,
+  "folder": "Autos"
+}
