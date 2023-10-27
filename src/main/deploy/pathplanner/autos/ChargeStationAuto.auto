@@ -1,0 +1,48 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.8211595664897497,
+      "y": 2.7259069684016146
+    },
+    "rotation": 180.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "ScoreHighCube"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "ChargeStation"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "PickupCone"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "ChargeStation"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "DockandEngage"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null
+}

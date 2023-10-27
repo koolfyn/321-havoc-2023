@@ -1,0 +1,48 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.8971430359922339,
+      "y": 1.0542706393469665
+    },
+    "rotation": 180.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "ScoreHighCube"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Bump"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "PickupCone"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Bump"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "HighConePos"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null
+}
