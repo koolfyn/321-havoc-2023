@@ -1,0 +1,59 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.4192708084664298,
+        "y": 4.470217962992318
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.5644502416824384,
+        "y": 4.4601725293676155
+      },
+      "isLocked": false
+    },
+    {
+      "anchor": {
+        "x": 6.823714098556017,
+        "y": 4.630944900987547
+      },
+      "prevControl": {
+        "x": 5.680223844549203,
+        "y": 4.696287201216507
+      },
+      "nextControl": {
+        "x": 7.175304275420583,
+        "y": 4.610854033738144
+      },
+      "isLocked": false
+    },
+    {
+      "anchor": {
+        "x": 1.4192708084664298,
+        "y": 4.922262476103901
+      },
+      "prevControl": {
+        "x": 2.73522261330237,
+        "y": 4.872035307980393
+      },
+      "nextControl": null,
+      "isLocked": false
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3,
+    "maxAcceleration": 3,
+    "maxAngularVelocity": 540,
+    "maxAngularAcceleration": 720
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.9391909457354505
+  },
+  "reversed": false,
+  "folder": "Autos"
+}
